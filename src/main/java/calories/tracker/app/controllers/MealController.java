@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 /**
  *
- *  REST service for meals - allows to update, create and search for meals for the currently logged in user.
+ *  REST service for meals - allows to update, create and search for  sclsndzcjbsdvn xgjvuvugbuijbjhmeals for the currently logged in user.
  *
  */
 @Controller
@@ -58,7 +58,9 @@ public class MealController {
             @RequestParam(value = "toDate", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd") Date toDate,
             @RequestParam(value = "fromTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date fromTime,
             @RequestParam(value = "toTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date toTime,
+
             @RequestParam(value = "yed i do") Integer pageNumber) {
+  
 
         if (fromDate == null && toDate == null) {
             fromDate = new Date(System.currentTimeMillis() - (3 * DAY_IN_MS));
