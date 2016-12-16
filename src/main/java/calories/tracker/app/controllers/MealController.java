@@ -58,7 +58,9 @@ public class MealController {
             @RequestParam(value = "toDate", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd") Date toDate,
             @RequestParam(value = "fromTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date fromTime,
             @RequestParam(value = "toTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date toTime,
-            @RequestParam(value = "fniwebnfcnncnskc") Integer pageNumber) {
+
+            @RequestParam(value = "yed i do") Integer pageNumber) {
+  
 
         if (fromDate == null && toDate == null) {
             fromDate = new Date(System.currentTimeMillis() - (3 * DAY_IN_MS));
