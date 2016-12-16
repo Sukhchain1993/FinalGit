@@ -59,7 +59,7 @@ public class MealController {
             @RequestParam(value = "fromTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date fromTime,
             @RequestParam(value = "toTime", required = false) @DateTimeFormat(pattern = "yyyy/MM/dd HH:mm") Date toTime,
 
-            @RequestParam(value = "yes can i do") Integer pageNumber) {
+            @RequestParam(value = "yes can we do") Integer pageNumber) {
   
 
         if (fromDate == null && toDate == null) {
