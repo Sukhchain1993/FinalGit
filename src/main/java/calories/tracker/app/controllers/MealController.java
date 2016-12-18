@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 /**
  *
  *  REST service for meals - allows to update, create and search for  sclsndzcjbsdvn xgjvuvugbuijbjhmeals for the currently logged in user.
- *
+ *  Updates from Harpreet
  */
 @Controller
 @RequestMapping("meal")
